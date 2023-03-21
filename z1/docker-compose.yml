@@ -1,0 +1,6 @@
+version: '3'
+
+services:
+    demo_hello:
+        build: .
+        image: lukaszdobrzycki/eb_task1:version_1

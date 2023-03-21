@@ -1,0 +1,24 @@
+plugins {
+    id 'application'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.xerial:sqlite-jdbc:3.25.2'
+}
+
+task download () {
+     configurations.implementation.setCanBeResolved(true)
+     configurations.implementation.files
+}
+
+application {
+    mainClass = 'demo_hello.App'
+}
+
+tasks.named('test') {
+    useJUnitPlatform()
+}
