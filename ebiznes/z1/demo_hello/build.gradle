@@ -1,0 +1,12 @@
+apply plugin: 'application'
+
+mainClassName = 'hello.HelloDemo'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.xerial:sqlite-jdbc:3.25.2'
+}
+
