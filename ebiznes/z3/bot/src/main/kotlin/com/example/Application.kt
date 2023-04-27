@@ -13,7 +13,7 @@ import dev.kord.gateway.PrivilegedIntent
 data class Category(val id: Int, var name: String, val items: List<String>)
 
 suspend fun main() {
-    val kord = Kord("MTEwMDk0MzgxNjM3MjAxNTExNA.Gu9_Dr.I1pR0ge9pI52dzdwL4qXGEyFYQ-urQgr0HSQeg")
+    val kord = Kord("TOKEN_HERE")
     val categoriesList = listOf<Category>(
         Category(1, "fruits", listOf("apple", "orange", "banana")),
         Category(2, "fish", listOf("cod", "tuna", "salmon")),
