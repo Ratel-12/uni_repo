@@ -1,0 +1,1 @@
+Completed the requirement for 3.0. (Discord bot connected to openai API.)
